@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <upstream>
+    <maintainer>
+      <email>gregory.mkv@gmail.com</email>
+      <name>Gregory</name>
+    </maintainer>
+    <bugs-to>https://github.com/chmln/sd/issues</bugs-to>
+    <remote-id type="github">chmln/sd</remote-id>
+  </upstream>
+  <maintainer type="person">
+    <email>xxc3ncoredxx@gmail.com</email>
+    <name>Oskari Pirhonen</name>
+  </maintainer>
+  <longdescription>
+    sd - s[earch] &amp; d[isplace]
+    sd is an intuitive find &amp; replace CLI.
+  </longdescription>
+</pkgmetadata>
