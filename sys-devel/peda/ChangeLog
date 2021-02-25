@@ -1,0 +1,4 @@
+*peda-1.1_p20200102 (25 Feb 2021)
+
+  25 Feb 2021;  <oskari@gentoo.org> +metadata.xml, +peda-1.1_p20200102.ebuild:
+  sys-devel/peda: new package
