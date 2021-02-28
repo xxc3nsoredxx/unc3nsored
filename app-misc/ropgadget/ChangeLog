@@ -1,0 +1,4 @@
+*ropgadget-6.5 (28 Feb 2021)
+
+  28 Feb 2021;  <oskari@gentoo.org> +metadata.xml, +ropgadget-6.5.ebuild:
+  app-misc/ropgadget: new package
