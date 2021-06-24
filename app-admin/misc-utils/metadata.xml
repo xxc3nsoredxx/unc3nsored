@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <upstream>
+    <maintainer>
+      <email>xxc3ncoredxx@gmail.com</email>
+      <name>Oskari Pirhonen</name>
+    </maintainer>
+    <bugs-to>https://github.com/xxc3nsoredxx/misc-utils/issues</bugs-to>
+    <remote-id type="github">xxc3nsoredxx/misc-utils</remote-id>
+  </upstream>
+  <maintainer type="person">
+    <email>xxc3ncoredxx@gmail.com</email>
+    <name>Oskari Pirhonen</name>
+  </maintainer>
+  <longdescription>
+    A collection miscellaneous little utils that I don't feel deserve a full repo.
+
+    Contents:
+     * BTRFS snapshot management script
+       - Take snapshots
+       - Transfer snapshots onto a LUKS encrypted volume
+     * ... more to come!
+       - Still in the GitHub repo, but unpackaged
+  </longdescription>
+  <use>
+    <flag name="snapshots">Install the BTRFS snapshot script</flag>
+  </use>
+</pkgmetadata>

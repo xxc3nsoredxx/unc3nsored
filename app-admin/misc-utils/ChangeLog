@@ -1,0 +1,4 @@
+*misc-utils-0.1 (24 Jun 2021)
+
+  24 Jun 2021;  <oskari@gentoo.org> +metadata.xml, +misc-utils-0.1.ebuild:
+  app-admin/misc-utils: new package
