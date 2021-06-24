@@ -7,6 +7,21 @@ eselect repository enable unc3nsored
 emaint sync -r unc3nsored
 ```
 
+## app-admin/
+### misc-utils
+A collection of miscellaneous little utils that I don't feel deserve a full repo.
+
+Contents:
+ * BTRFS snapshot management script
+   - Take snapshots
+   - Transfer snapshots onto a LUKS encrypted volume
+ * ... more to come!
+   - Still in the GitHub repo, but unpackaged
+
+Version: 0.1
+
+[GitHub][misc-utils github]
+
 ## app-misc/
 ### ropgadget
 This tool lets you search your gadgets on your binaries to facilitate your ROP exploitation.
@@ -40,6 +55,7 @@ Latest upstream commit included: 84d38bda
 
 
 <!-- link refs -->
+[misc-utils github]: https://github.com/xxc3nsoredxx/misc-utils
 [rop]: https://www.shell-storm.org/project/ROPgadget/
 [rop github]: https://github.com/JonathanSalwan/ROPgadget
 [sd]: https://github.com/chmln/sd
