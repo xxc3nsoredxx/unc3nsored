@@ -14,7 +14,7 @@
     <name>Oskari Pirhonen</name>
   </maintainer>
   <longdescription>
-    A collection miscellaneous little utils that I don't feel deserve a full repo.
+    Collection of miscellaneous little utils that I don't feel deserve a full repo.
 
     Contents:
      * BTRFS snapshot management script

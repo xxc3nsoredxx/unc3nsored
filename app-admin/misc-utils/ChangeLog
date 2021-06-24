@@ -1,3 +1,8 @@
+*misc-utils-0.1-r1 (24 Jun 2021)
+
+  24 Jun 2021;  <oskari@gentoo.org> +misc-utils-0.1-r1.ebuild, metadata.xml:
+  app-admin/misc-utils: Reword package description
+
 *misc-utils-0.1 (24 Jun 2021)
 
   24 Jun 2021;  <oskari@gentoo.org> +metadata.xml, +misc-utils-0.1.ebuild:
