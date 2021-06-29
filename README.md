@@ -22,6 +22,12 @@ Version: 0.1.1
 
 [GitHub][misc-utils github]
 
+## app-crypt/
+### openpgp-keys-xxc3nsoredxx
+OpenPGP key used by xxc3nsoredxx to sign their releases.
+
+[Public key][pgp]
+
 ## app-misc/
 ### ropgadget
 This tool lets you search your gadgets on your binaries to facilitate your ROP exploitation.
@@ -61,3 +67,6 @@ Latest upstream commit included: 84d38bda
 [sd]: https://github.com/chmln/sd
 [peda]: https://github.com/longld/peda
 [peda gentoo]: https://github.com/xxc3nsoredxx/peda
+
+<!-- public key links will stay at the end, raw download last -->
+[pgp]: https://raw.githubusercontent.com/xxc3nsoredxx/xxc3nsoredxx/master/pubkey.asc
