@@ -18,7 +18,7 @@ Contents:
  * ... more to come!
    - Still in the GitHub repo, but unpackaged
 
-Version: 0.1.1
+Version: 0.1.2
 
 [GitHub][misc-utils github]
 
