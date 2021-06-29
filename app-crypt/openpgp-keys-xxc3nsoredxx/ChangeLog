@@ -1,0 +1,5 @@
+*openpgp-keys-xxc3nsoredxx-20210628 (29 Jun 2021)
+
+  29 Jun 2021;  <oskari@gentoo.org> +metadata.xml,
+  +openpgp-keys-xxc3nsoredxx-20210628.ebuild:
+  app-crypt/openpgp-keys-xxc3nsoredxx: new package
