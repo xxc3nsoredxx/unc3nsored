@@ -1,3 +1,7 @@
+  29 Jun 2021;  <oskari@gentoo.org> -misc-utils-0.1-r1.ebuild,
+  -misc-utils-0.1.1.ebuild, -misc-utils-0.1.ebuild:
+  app-admin/misc-utils: remove old ebuilds
+
 *misc-utils-0.1.1-r1 (29 Jun 2021)
 
   29 Jun 2021;  <oskari@gentoo.org> +misc-utils-0.1.1-r1.ebuild:
