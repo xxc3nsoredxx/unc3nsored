@@ -18,5 +18,11 @@
     
     Since image tools are not part of Android SDK, this standalone port of AOSP
     libsparse aims to avoid complex building chains.
+    
+    Provides:
+     - simg2img
+     - simg2simg
+     - img2simg
+     - append2simg
   </longdescription>
 </pkgmetadata>
