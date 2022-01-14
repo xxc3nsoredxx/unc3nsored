@@ -39,6 +39,14 @@ Version: 6.5
 
 [GitHub][rop github]
 
+## dev-libs/
+### pico-sdk
+Raspberry Pi Pico C/C++ SDK
+
+Version: 1.3.0
+
+[Homepage][pico sdk]
+
 ## sys-apps/
 ### sd
 Intuitive find & replace CLI (sed alternative)
@@ -64,6 +72,7 @@ Latest upstream commit included: 84d38bda
 [misc-utils github]: https://github.com/xxc3nsoredxx/misc-utils
 [rop]: https://www.shell-storm.org/project/ROPgadget/
 [rop github]: https://github.com/JonathanSalwan/ROPgadget
+[pico sdk]: https://github.com/raspberrypi/pico-sdk
 [sd]: https://github.com/chmln/sd
 [peda]: https://github.com/longld/peda
 [peda gentoo]: https://github.com/xxc3nsoredxx/peda
