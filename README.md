@@ -67,6 +67,22 @@ Latest upstream commit included: 84d38bda
 
 [Homepage (Gentoo repack)][peda gentoo]
 
+## sys-fs/
+### android-simg2img
+Tool to convert Android sparse images to raw images.
+
+Since image tools are not part of Android SDK, this standalone port of AOSP libsparse aims to avoid complex building chains.
+
+Provides:
+ * `simg2img`
+ * `simg2simg`
+ * `img2simg`
+ * `append2simg`
+
+Version: 1.1.4
+
+[Homepage][simg2img]
+
 
 <!-- link refs -->
 [misc-utils github]: https://github.com/xxc3nsoredxx/misc-utils
@@ -76,6 +92,7 @@ Latest upstream commit included: 84d38bda
 [sd]: https://github.com/chmln/sd
 [peda]: https://github.com/longld/peda
 [peda gentoo]: https://github.com/xxc3nsoredxx/peda
+[simg2img]: https://github.com/anestisb/android-simg2img
 
 <!-- public key links will stay at the end, raw download last -->
 [pgp]: https://raw.githubusercontent.com/xxc3nsoredxx/xxc3nsoredxx/master/pubkey.asc
