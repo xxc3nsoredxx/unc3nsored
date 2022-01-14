@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <upstream>
+    <maintainer>
+      <name>Anestis Bechtsoudis</name>
+      <email>anestis@census-labs.com</email>
+    </maintainer>
+    <bugs-to>https://github.com/anestisb/android-simg2img/issues</bugs-to>
+    <remote-id type="github">anestisb/android-simg2img</remote-id>
+  </upstream>
+  <maintainer type="person">
+    <email>xxc3ncoredxx@gmail.com</email>
+    <name>Oskari Pirhonen</name>
+  </maintainer>
+  <longdescription>
+    Tool to convert Android sparse images to raw images.
+    
+    Since image tools are not part of Android SDK, this standalone port of AOSP
+    libsparse aims to avoid complex building chains.
+  </longdescription>
+</pkgmetadata>
