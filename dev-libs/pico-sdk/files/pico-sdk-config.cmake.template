@@ -1,0 +1,2 @@
+set(PICO_SDK_PATH "@sdk_path@")
+include("@sdk_path@/external/pico_sdk_import.cmake")

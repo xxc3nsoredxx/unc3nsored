@@ -1,0 +1,5 @@
+*pico-sdk-1.3.0 (14 Jan 2022)
+
+  14 Jan 2022; Oskari Pirhonen <xxc3ncoredxx@gmail.com>
+  +files/pico-sdk-config.cmake.template, +metadata.xml, +pico-sdk-1.3.0.ebuild:
+  dev-libs/pico-sdk: new package
