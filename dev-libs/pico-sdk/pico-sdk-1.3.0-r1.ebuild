@@ -8,7 +8,7 @@ HOMEPAGE="https://github.com/raspberrypi/pico-sdk"
 SRC_URI="https://github.com/raspberrypi/${PN}/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="BSD"
-SLOT="0"
+SLOT="1.3.0"
 KEYWORDS="~amd64 ~x86"
 
 # cmake triggers an RDEPEND.suspect QA warning from repoman
