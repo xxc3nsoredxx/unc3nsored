@@ -47,6 +47,15 @@ Version: 1.3.0
 
 [Homepage][pico sdk]
 
+## dev-vcs/
+### p4v
+Helix Visual Client (P4V) is a desktop app that provides access to versioned files in Helix Core through a graphical interface.
+It includes tools for merging and visualizing code evolution.
+
+Version: 2021.4/2227050
+
+[Homepage][p4v]
+
 ## sys-apps/
 ### sd
 Intuitive find & replace CLI (sed alternative)
@@ -89,6 +98,7 @@ Version: 1.1.4
 [rop]: https://www.shell-storm.org/project/ROPgadget/
 [rop github]: https://github.com/JonathanSalwan/ROPgadget
 [pico sdk]: https://github.com/raspberrypi/pico-sdk
+[p4v]: https://www.perforce.com/products/helix-core-apps/helix-visual-clients-p4v
 [sd]: https://github.com/chmln/sd
 [peda]: https://github.com/longld/peda
 [peda gentoo]: https://github.com/xxc3nsoredxx/peda
