@@ -9,7 +9,7 @@ MY_PV_YEAR="${MY_PV_YEAR:2}"
 MY_PV_REL=$(ver_cut 2)
 
 DESCRIPTION="Helix Visual Client (P4V) For Helix Core"
-HOMEPAGE="https://www.perforce.com/products/helix-core-apps/helix-visual-clients-p4v"
+HOMEPAGE="https://www.perforce.com/products/helix-core-apps/helix-visual-client-p4v"
 SRC_URI="
 	https://filehost.perforce.com/perforce/r${MY_PV_YEAR}.${MY_PV_REL}/bin.linux26x86_64/${PN}.tgz -> ${P}.tar.gz
 "
