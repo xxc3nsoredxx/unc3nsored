@@ -1,0 +1,5 @@
+*p4v-2021.4.2227050 (17 Jan 2022)
+
+  17 Jan 2022; Oskari Pirhonen <xxc3ncoredxx@gmail.com> +metadata.xml,
+  +p4v-2021.4.2227050.ebuild:
+  dev-vcs/p4v: new package

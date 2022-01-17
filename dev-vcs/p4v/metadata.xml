@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <upstream>
+    <changelog>https://www.perforce.com/perforce/doc.current/user/p4vnotes.txt</changelog>
+  </upstream>
+  <maintainer type="person">
+    <email>xxc3ncoredxx@gmail.com</email>
+    <name>Oskari Pirhonen</name>
+  </maintainer>
+  <longdescription>
+    Helix Visual Client (P4V) is a desktop app that provides access
+    to versioned files in Helix Core through a graphical interface.
+    It includes tools for merging and visualizing code evolution.
+  </longdescription>
+</pkgmetadata>
