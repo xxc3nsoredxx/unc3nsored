@@ -98,7 +98,7 @@ Version: 1.1.4
 [rop]: https://www.shell-storm.org/project/ROPgadget/
 [rop github]: https://github.com/JonathanSalwan/ROPgadget
 [pico sdk]: https://github.com/raspberrypi/pico-sdk
-[p4v]: https://www.perforce.com/products/helix-core-apps/helix-visual-clients-p4v
+[p4v]: https://www.perforce.com/products/helix-core-apps/helix-visual-client-p4v
 [sd]: https://github.com/chmln/sd
 [peda]: https://github.com/longld/peda
 [peda gentoo]: https://github.com/xxc3nsoredxx/peda
