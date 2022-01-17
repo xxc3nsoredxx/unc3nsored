@@ -27,11 +27,6 @@ BDEPEND=""
 
 INSTALL_TO="/opt/p4v"
 
-pkg_postinst() {
-	ewarn "Perforce only provides the latest patch revisions. The SRC_URI may provide"
-	ewarn "A tarball that no longer matches the hashes in the Manifest"
-}
-
 src_install() {
 	exeinto "${INSTALL_TO}/bin"
 
