@@ -47,6 +47,15 @@ Version: 1.3.0
 
 [Homepage][pico sdk]
 
+### tinyusb
+TinyUSB is an open-source cross-platform USB Host/Device stack for embedded system, designed to be memory-safe with no dynamic allocation and thread-safe with all interrupt events are deferred then handled in the non-ISR task function.
+
+NOTE: Doesn't include any of the files under hw/mcu and lib/.
+
+Version: 0.12.0
+
+[Homepage][tinyusb]
+
 ## dev-vcs/
 ### p4v
 Helix Visual Client (P4V) is a desktop app that provides access to versioned files in Helix Core through a graphical interface.
@@ -98,6 +107,7 @@ Version: 1.1.4
 [rop]: https://www.shell-storm.org/project/ROPgadget/
 [rop github]: https://github.com/JonathanSalwan/ROPgadget
 [pico sdk]: https://github.com/raspberrypi/pico-sdk
+[tinyusb]: https://github.com/hathach/tinyusb
 [p4v]: https://www.perforce.com/products/helix-core-apps/helix-visual-client-p4v
 [sd]: https://github.com/chmln/sd
 [peda]: https://github.com/longld/peda
