@@ -13,12 +13,19 @@ KEYWORDS="~amd64 ~x86"
 
 # cmake triggers an RDEPEND.suspect QA warning from repoman
 DEPEND="
+	usb? (
+		~dev-libs/tinyusb-0.12.0
+	)
 	>=dev-util/cmake-3.13.0
 "
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
-# TODO: TinyUSB USE flag to replace git submodule
+IUSE="+usb"
+
+PATCHES=(
+	"${FILESDIR}/${P}-Add-system-tinyusb-check.patch"
+)
 
 INSTALL_TO="/usr/share/${PN}"
 
@@ -27,7 +34,11 @@ src_prepare() {
 	cp "${FILESDIR}/pico-sdk-config.cmake.template" "${S}/pico-sdk-config.cmake"
 	sed -i -e "s|@sdk_path@|${INSTALL_TO}|" "${S}/pico-sdk-config.cmake"
 
-	eapply_user
+	if use usb; then
+		echo "find_package(tinyusb CONFIG)" >> "${S}/pico-sdk-config.cmake"
+	fi
+
+	default
 }
 
 src_install() {
@@ -51,4 +62,9 @@ pkg_postinst() {
 	elog "The Raspberry Pi Pico SDK requires an 'arm-none-eabi' toolchain to be"
 	elog "useful. See https://wiki.gentoo.org/wiki/Crossdev for a tool that let's you"
 	elog "build a GCC cross-compiler for various different architectures."
+
+	if ! use usb; then
+		elog "TinyUSB support has been disabled. To enable, either re-emerge with"
+		elog "USE='usb' or provide your own copy of the library if needed."
+	fi
 }

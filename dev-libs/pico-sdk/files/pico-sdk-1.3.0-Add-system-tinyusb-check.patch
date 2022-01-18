@@ -1,0 +1,27 @@
+From ed72189b372727ee304f7084c3da3c1fc9c91788 Mon Sep 17 00:00:00 2001
+From: Oskari Pirhonen <xxc3ncoredxx@gmail.com>
+Date: Sun, 16 Jan 2022 23:35:37 -0600
+Subject: [PATCH] Add system tinyusb check
+
+Signed-off-by: Oskari Pirhonen <xxc3ncoredxx@gmail.com>
+---
+ src/rp2_common/tinyusb/CMakeLists.txt | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/src/rp2_common/tinyusb/CMakeLists.txt b/src/rp2_common/tinyusb/CMakeLists.txt
+index 80a6e78..44f34cb 100644
+--- a/src/rp2_common/tinyusb/CMakeLists.txt
++++ b/src/rp2_common/tinyusb/CMakeLists.txt
+@@ -1,6 +1,9 @@
+ if (DEFINED ENV{PICO_TINYUSB_PATH} AND (NOT PICO_TINYUSB_PATH))
+     set(PICO_TINYUSB_PATH $ENV{PICO_TINYUSB_PATH})
+     message("Using PICO_TINYUSB_PATH from environment ('${PICO_TINYUSB_PATH}')")
++elseif (DEFINED TINYUSB_PATH AND (NOT PICO_TINYUSB_PATH))
++    set(PICO_TINYUSB_PATH ${TINYUSB_PATH})
++    message("Using system tinyusb ('${PICO_TINYUSB_PATH}')")
+ endif ()
+ 
+ set(TINYUSB_TEST_PATH "src/portable/raspberrypi/rp2040")
+-- 
+2.34.1
+

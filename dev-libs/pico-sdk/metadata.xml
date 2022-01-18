@@ -40,4 +40,7 @@
     Additional libraries/APIs that are not yet ready for inclusion in the SDK
     can be found in [pico-extras](https://github.com/raspberrypi/pico-extras).
   </longdescription>
+  <use>
+    <flag name="usb">Provide USB support using TinyUSB</flag>
+  </use>
 </pkgmetadata>
