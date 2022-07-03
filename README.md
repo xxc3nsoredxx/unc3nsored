@@ -77,9 +77,7 @@ Version: 0.7.6
 ### peda
 PEDA - Python Exploit Development Assistance for GDB
 
-Version: 1.1_p20200102
-
-Latest upstream commit included: 84d38bda
+Version: 1.2
 
 [Homepage (upstream)][peda]
 
