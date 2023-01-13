@@ -1,5 +1,0 @@
-*sd-0.7.6 (22 Feb 2021)
-
-  22 Feb 2021;  <oskari@gentoo.org> +metadata.xml, +sd-0.7.6.ebuild:
-  sys-apps/sd: new package  Signed-off-by: Oskari Pirhonen
-  <xxc3ncoredxx@gmail.com>
