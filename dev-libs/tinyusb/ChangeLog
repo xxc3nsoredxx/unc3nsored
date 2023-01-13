@@ -1,5 +1,0 @@
-*tinyusb-0.12.0 (18 Jan 2022)
-
-  18 Jan 2022; Oskari Pirhonen <xxc3ncoredxx@gmail.com>
-  +files/tinyusb-config.cmake.template, +metadata.xml, +tinyusb-0.12.0.ebuild:
-  dev-libs/tinyusb: new package
