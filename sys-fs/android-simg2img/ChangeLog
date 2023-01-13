@@ -1,9 +1,0 @@
-  14 Jan 2022; Oskari Pirhonen <xxc3ncoredxx@gmail.com> metadata.xml:
-  sys-fs/android-simg2img: metadata.xml update  Add the list of tools provided
-  by the package into the longdescription.
-
-*android-simg2img-1.1.4 (14 Jan 2022)
-
-  14 Jan 2022; Oskari Pirhonen <xxc3ncoredxx@gmail.com>
-  +android-simg2img-1.1.4.ebuild, +metadata.xml:
-  sys-fs/android-simg2img: new package
