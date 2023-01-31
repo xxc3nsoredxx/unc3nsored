@@ -22,12 +22,6 @@ Version: 0.1.3
 
 [GitHub][misc-utils github]
 
-## app-crypt/
-### openpgp-keys-xxc3nsoredxx
-OpenPGP key used by xxc3nsoredxx to sign their releases.
-
-[Public key][pgp]
-
 ## app-misc/
 ### ropgadget
 This tool lets you search your gadgets on your binaries to facilitate your ROP exploitation.
@@ -64,6 +58,12 @@ It includes tools for merging and visualizing code evolution.
 Version: 2022.3/2370885
 
 [Homepage][p4v]
+
+## sec-keys/
+### openpgp-keys-xxc3nsoredxx
+OpenPGP key used by xxc3nsoredxx to sign their releases.
+
+[Public key][pgp]
 
 ## sys-apps/
 ### sd
