@@ -3,7 +3,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3_{6,7,8,9} )
+PYTHON_COMPAT=( python3_{6..11} )
 inherit distutils-r1
 
 # Upstream uses capital letters in the package name
