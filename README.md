@@ -59,6 +59,14 @@ Version: 2022.3/2370885
 
 [Homepage][p4v]
 
+## net-misc/
+### openssh
+OpenSSH from `::gentoo` but with extra USE flag `single-config` to use a single
+config file for `ssh_config` and `sshd_config` instead of fragments in
+`ssh_config.d/` and `sshd_config.d/`, respectively.
+
+Gentoo version: 9.3\_p1-r1
+
 ## sec-keys/
 ### openpgp-keys-xxc3nsoredxx
 OpenPGP key used by xxc3nsoredxx to sign their releases.
