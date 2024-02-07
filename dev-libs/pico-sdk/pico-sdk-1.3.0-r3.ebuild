@@ -16,7 +16,7 @@ DEPEND="
 	usb? (
 		~dev-libs/tinyusb-0.12.0
 	)
-	>=dev-util/cmake-3.13.0
+	>=dev-build/cmake-3.13.0
 "
 RDEPEND="${DEPEND}"
 BDEPEND=""
