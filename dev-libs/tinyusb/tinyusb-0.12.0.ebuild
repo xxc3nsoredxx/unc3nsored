@@ -13,7 +13,7 @@ KEYWORDS="~amd64 ~x86"
 
 # cmake triggers an RDEPEND.suspect QA warning from repoman
 DEPEND="
-	>=dev-util/cmake-3.13.0
+	>=dev-build/cmake-3.13.0
 "
 RDEPEND="${DEPEND}"
 BDEPEND=""
