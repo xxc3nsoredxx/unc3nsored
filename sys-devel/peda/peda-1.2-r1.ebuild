@@ -24,7 +24,7 @@ RDEPEND="
 	$(python_gen_cond_dep '
 		>=dev-python/six-1.9.0[${PYTHON_USEDEP}]
 	')
-	sys-devel/gdb[${PYTHON_SINGLE_USEDEP}]
+	dev-debug/gdb[${PYTHON_SINGLE_USEDEP}]
 "
 
 src_prepare() {
