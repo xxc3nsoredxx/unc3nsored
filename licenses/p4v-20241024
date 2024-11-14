@@ -1,0 +1,316 @@
+Helix Admin, the Helix Administration Tool
+Helix P4Merge, the Helix  Visual Merge Tool
+Helix Visual Client (P4V)
+Copyright (c) 2024, Perforce Software, Inc.  All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+1.  Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+2.  Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL PERFORCE SOFTWARE, INC. BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+----------------------------------------
+THIRD PARTY COMMERCIAL LICENSES
+----------------------------------------
+Qt Licensing
+
+        This product includes commercially licensed software, QtWebEngine, which
+        Perforce has obtained a commercial license from The Qt Company, Inc., a Delaware corporation, 
+        and such use is governed by that certain Qt License Agreement, version 4.3, a copy of which is located at: 
+        https://www.qt.io/terms-conditions/
+
+        The QtWebEngine has some open source components.
+        Qt 6.5.3 - See https://doc.qt.io/qt-6.5/licenses-used-in-qt.html for QtWebEngine licensing.
+        https://filehost.perforce.com/perforce/third_party/license/qt/qtwebengine_license_6_5_3.html
+        Source code for QtWebEngine is available from the source repository at https://code.qt.io/cgit/qt/qtwebengine.git
+
+----------------------------------------
+OpenSSL Licensing
+
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) This product includes software and cryptographic software written by Eric Young (eay@cryptsoft.com). This product includes software written by Tim Hudson (tjh@cryptsoft.com). http://www.openssl.org/source/license.html 
+
+  LICENSE ISSUES
+  ==============
+
+  The OpenSSL toolkit stays under a double license, i.e. both the conditions of
+  the OpenSSL License and the original SSLeay license apply to the toolkit.
+  See below for the actual license texts.
+
+        OpenSSL License
+        ---------------
+
+        Copyright (c) 1998-2011 The OpenSSL Project.  All rights reserved.
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions
+        are met:
+        
+        1. Redistributions of source code must retain the above copyright
+           notice, this list of conditions and the following disclaimer.
+        
+        2. Redistributions in binary form must reproduce the above copyright
+           notice, this list of conditions and the following disclaimer in
+           the documentation and/or other materials provided with the
+           distribution.
+        
+        3. All advertising materials mentioning features or use of this
+           software must display the following acknowledgment:
+           "This product includes software developed by the OpenSSL Project
+           for use in the OpenSSL Toolkit. (http://www.openssl.org/)"
+        
+        4. The names "OpenSSL Toolkit" and "OpenSSL Project" must not be used to
+           endorse or promote products derived from this software without
+           prior written permission. For written permission, please contact
+           openssl-core@openssl.org.
+        
+        5. Products derived from this software may not be called "OpenSSL"
+           nor may "OpenSSL" appear in their names without prior written
+           permission of the OpenSSL Project.
+        
+        6. Redistributions of any form whatsoever must retain the following
+           acknowledgment:
+           "This product includes software developed by the OpenSSL Project
+           for use in the OpenSSL Toolkit (http://www.openssl.org/)"
+        
+        THIS SOFTWARE IS PROVIDED BY THE OpenSSL PROJECT ``AS IS'' AND ANY
+        EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+        PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE OpenSSL PROJECT OR
+        ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+        SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+        NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+        LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+        HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
+        STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+        ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED
+        OF THE POSSIBILITY OF SUCH DAMAGE.
+        
+        This product includes cryptographic software written by Eric Young
+        (eay@cryptsoft.com).  This product includes software written by Tim
+        Hudson (tjh@cryptsoft.com).
+        
+        Original SSLeay License
+        -----------------------
+
+        Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com)
+        All rights reserved.
+        
+        This package is an SSL implementation written
+        by Eric Young (eay@cryptsoft.com).
+        The implementation was written so as to conform with Netscapes SSL.
+        
+        This library is free for commercial and non-commercial use as long as
+        the following conditions are adhered to.  The following conditions
+        apply to all code found in this distribution, be it the RC4, RSA,
+        lhash, DES, etc., code; not just the SSL code.  The SSL documentation
+        included with this distribution is covered by the same copyright terms
+        except that the holder is Tim Hudson (tjh@cryptsoft.com).
+        
+        Copyright remains Eric Young's, and as such any Copyright notices in
+        the code are not to be removed.
+        If this package is used in a product, Eric Young should be given attribution
+        as the author of the parts of the library used.
+        This can be in the form of a textual message at program startup or
+        in documentation (online or textual) provided with the package.
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions
+        are met:
+        1. Redistributions of source code must retain the copyright
+           notice, this list of conditions and the following disclaimer.
+        2. Redistributions in binary form must reproduce the above copyright
+           notice, this list of conditions and the following disclaimer in the
+           documentation and/or other materials provided with the distribution.
+        3. All advertising materials mentioning features or use of this software
+           must display the following acknowledgement:
+           "This product includes cryptographic software written by
+           Eric Young (eay@cryptsoft.com)"
+           The word 'cryptographic' can be left out if the routines from the library
+           being used are not cryptographic related  :-) .
+        4. If you include any Windows specific code (or a derivative thereof) from
+           the apps directory (application code) you must include an acknowledgement:
+           "This product includes software written by Tim Hudson (tjh@cryptsoft.com)"
+        
+        THIS SOFTWARE IS PROVIDED BY ERIC YOUNG ``AS IS'' AND
+        ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+        ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
+        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+        OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+        HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+        LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+        OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+        SUCH DAMAGE.
+        
+        The license and distribution terms for any publicly available version or
+        derivative of this code cannot be changed.  i.e. this code cannot simply be
+        copied and put under another distribution license
+        [including the GNU Public License.]
+
+
+-----------------------------------------
+ICU Unicode library Licensing
+
+      ICU is released under a nonrestrictive open source license that is suitable for use with both commercial software and with other open source or free software.
+      http://site.icu-project.org/
+
+      UNICODE, INC. LICENSE AGREEMENT - DATA FILES AND SOFTWARE
+      See Terms of Use for definitions of Unicode Inc.'s
+      Data Files and Software.
+
+      NOTICE TO USER: Carefully read the following legal agreement.
+      BY DOWNLOADING, INSTALLING, COPYING OR OTHERWISE USING UNICODE INC.'S
+      DATA FILES ("DATA FILES"), AND/OR SOFTWARE ("SOFTWARE"),
+      YOU UNEQUIVOCALLY ACCEPT, AND AGREE TO BE BOUND BY, ALL OF THE
+      TERMS AND CONDITIONS OF THIS AGREEMENT.
+      IF YOU DO NOT AGREE, DO NOT DOWNLOAD, INSTALL, COPY, DISTRIBUTE OR USE
+      THE DATA FILES OR SOFTWARE.
+
+      COPYRIGHT AND PERMISSION NOTICE
+
+      Copyright © 1991-2021 Unicode, Inc. All rights reserved.
+      Distributed under the Terms of Use in https://www.unicode.org/copyright.html.
+
+      Permission is hereby granted, free of charge, to any person obtaining
+      a copy of the Unicode data files and any associated documentation
+      (the "Data Files") or Unicode software and any associated documentation
+      (the "Software") to deal in the Data Files or Software
+      without restriction, including without limitation the rights to use,
+      copy, modify, merge, publish, distribute, and/or sell copies of
+      the Data Files or Software, and to permit persons to whom the Data Files
+      or Software are furnished to do so, provided that either
+      (a) this copyright and permission notice appear with all copies
+      of the Data Files or Software, or
+      (b) this copyright and permission notice appear in associated
+      Documentation.
+
+      THE DATA FILES AND SOFTWARE ARE PROVIDED "AS IS", WITHOUT WARRANTY OF
+      ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+      WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+      NONINFRINGEMENT OF THIRD PARTY RIGHTS.
+      IN NO EVENT SHALL THE COPYRIGHT HOLDER OR HOLDERS INCLUDED IN THIS
+      NOTICE BE LIABLE FOR ANY CLAIM, OR ANY SPECIAL INDIRECT OR CONSEQUENTIAL
+      DAMAGES, OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,
+      DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+      TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+      PERFORMANCE OF THE DATA FILES OR SOFTWARE.
+
+      Except as contained in this notice, the name of a copyright holder
+      shall not be used in advertising or otherwise to promote the sale,
+      use or other dealings in these Data Files or Software without prior
+      written authorization of the copyright holder.
+
+
+-----------------------------------------
+KDE KSyntaxHighlighting Framework Licensing
+
+      The P4Merge application uses this library to provide syntax highlighting support.
+
+      MIT License
+
+      Permission is hereby granted, free of charge, to any person obtaining
+      a copy of this software and associated documentation files (the
+      "Software"), to deal in the Software without restriction, including
+      without limitation the rights to use, copy, modify, merge, publish,
+      distribute, sublicense, and/or sell copies of the Software, and to
+      permit persons to whom the Software is furnished to do so, subject to
+      the following conditions:
+
+      The above copyright notice and this permission notice shall be included
+      in all copies or substantial portions of the Software.
+
+      THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+      EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+      MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+      IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+      CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+      TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+      SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+-----------------------------------------
+WixWPFWizardBA Licensing
+
+		The P4V Windows installer uses WixWPFWizardBA.
+
+		MIT License
+	
+		Copyright (c) 2017 Nick Guletskii, Arseniy Aseev
+	
+		Permission is hereby granted, free of charge, to any person obtaining a copy
+		of this software and associated documentation files (the "Software"), to deal
+		in the Software without restriction, including without limitation the rights
+		to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+		copies of the Software, and to permit persons to whom the Software is
+		furnished to do so, subject to the following conditions:
+
+		The above copyright notice and this permission notice shall be included in all
+		copies or substantial portions of the Software.
+
+		THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+		IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+		FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+		AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+		LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+		OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+		SOFTWARE.
+
+
+-----------------------------------------
+SingleApplication Licensing
+
+      The P4Admin application uses this library.
+
+      The MIT License (MIT)
+
+      Copyright (c) Itay Grudev 2015 - 2020
+      https://github.com/itay-grudev/SingleApplication/blob/master/LICENSE
+
+
+      Permission is hereby granted, free of charge, to any person obtaining a copy
+      of this software and associated documentation files (the "Software"), to deal
+      in the Software without restriction, including without limitation the rights
+      to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+      copies of the Software, and to permit persons to whom the Software is
+      furnished to do so, subject to the following conditions:
+
+      The above copyright notice and this permission notice shall be included in
+      all copies or substantial portions of the Software.
+
+      THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+      IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+      FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+      AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+      LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+      OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+      THE SOFTWARE.
+
+-----------------------------------------
+vis-network Licensing
+
+      The P4Admin Topology feature uses this library.
+
+      The MIT License (MIT)
+
+      Copyright (c) 2014-2017 Almende B.V.
+
+      Permission is hereby granted, free of charge, to any person obtaining a copy
+      of this software and associated documentation files (the "Software"), to deal
+      in the Software without restriction, including without limitation the rights
+      to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+      copies of the Software, and to permit persons to whom the Software is
+      furnished to do so, subject to the following conditions:
+
+      The above copyright notice and this permission notice shall be included in all
+      copies or substantial portions of the Software.
+
+      THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+      IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+      FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+      AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+      LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+      OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+      SOFTWARE.
