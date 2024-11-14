@@ -55,7 +55,7 @@ Version: 0.12.0
 Helix Visual Client (P4V) is a desktop app that provides access to versioned files in Helix Core through a graphical interface.
 It includes tools for merging and visualizing code evolution.
 
-Version: 2022.3/2370885
+Version: 2022.3/2370885, 2024.3/2672664
 
 [Homepage][p4v]
 
