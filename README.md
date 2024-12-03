@@ -50,6 +50,12 @@ Version: 0.12.0
 
 [Homepage][tinyusb]
 
+## dev-lang/
+### rust
+Temporary stepping stone version between old pre-slotted and new slotted rust.
+
+Version: 1.79.0-r99
+
 ## dev-vcs/
 ### p4v
 Helix Visual Client (P4V) is a desktop app that provides access to versioned files in Helix Core through a graphical interface.
