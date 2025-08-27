@@ -72,13 +72,13 @@ RDEPEND="
 "
 # Weird dep construct for newer gcc-config for bug #872416
 BDEPEND="
-	sys-devel/autoconf
+	dev-build/autoconf
 	virtual/pkgconfig
 	|| (
 		>=sys-devel/gcc-config-2.6
-		>=sys-devel/clang-toolchain-symlinks-14-r1:14
-		>=sys-devel/clang-toolchain-symlinks-15-r1:15
-		>=sys-devel/clang-toolchain-symlinks-16-r1:*
+		>=llvm-core/clang-toolchain-symlinks-14-r1:14
+		>=llvm-core/clang-toolchain-symlinks-15-r1:15
+		>=llvm-core/clang-toolchain-symlinks-16-r1:*
 	)
 	verify-sig? ( sec-keys/openpgp-keys-openssh )
 "
