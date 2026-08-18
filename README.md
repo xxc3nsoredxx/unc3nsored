@@ -71,7 +71,7 @@ OpenSSH from `::gentoo` but with extra USE flag `single-config` to use a single
 config file for `ssh_config` and `sshd_config` instead of fragments in
 `ssh_config.d/` and `sshd_config.d/`, respectively.
 
-Gentoo version: 9.8\_p1-r3, 10.0_p1, 10.0_p2, 10.2_p1, 10.2_p1-r1, 10.3_p1
+Gentoo version: 9.8\_p1-r3, 10.0_p1, 10.0_p2, 10.2_p1, 10.2_p1-r1, 10.3_p1, 10.4_p1-r1
 
 ## sec-keys/
 ### openpgp-keys-xxc3nsoredxx
